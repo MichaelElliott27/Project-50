@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44, 202, 65);
+  font-size: 30px;
+  font-family:monospace;
+  font-weight: 10;
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(40, 183, 240);
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid img {
+  border: 2px solid rgb(255, 0, 0);
+  border-radius: 50px;
+}
+.languages {
+  border-radius: 20px;
+  background-color: rgb(90, 247, 168);
+  margin: 10px;
+
+  width: 310px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
